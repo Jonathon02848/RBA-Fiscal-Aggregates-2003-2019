@@ -15,17 +15,14 @@ The [Report](./Report.pdf) describes the full process.
 ## Project Layout
 The project contains the following
 
-| File/Folder                           | Purpose                                                       |
-| :------------------------------------ | :-------------------------------------------------------------|
-| `Report.pdf`                          | Complete project report with visualisations
-|
-| `Crop`                                | Folder containing intermediary filtered & processed data                |
+| File/Folder                           | Purpose                                                    |
+| :------------------------------------ | :----------------------------------------------------------|
+| `Report.pdf`                          | Complete project report with visualisations                |
+| `Crop`                                | Folder containing intermediary filtered & processed data   |
 | `Queries`                             | Folder containing SQL queries for visualisations           |
-| `Raw`                                 | Folder containing all raw datasets                          |
-| `SQL`                                 | Folder containing SQL and PSQL code used                      |
+| `Raw`                                 | Folder containing all raw datasets                         |
+| `SQL`                                 | Folder containing SQL and PSQL code used                   |
 | `Visualisations`                      | Folder containing visualisations and Power BI files        |
-
-
 
 ## Analysis Steps
 The following steps were used to generate the accurate visualisations from input data.
