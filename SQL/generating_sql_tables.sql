@@ -1,0 +1,90 @@
+-- #################################################3
+--Barrier
+--Generating Tables
+-- month_housing_credit_growth -> m_housing_lcg
+-- TLDR Corrected for used shorthand naming
+
+Create Table "financial_aggregates_raw" (
+	datetime_id SERIAL,
+	month_date DATE,
+	m_housing_cg_fa REAL,
+	m12_housing_cg_fa REAL,
+	m_owned_housing_cg_fa REAL,
+	m12_owned_housing_cg_fa REAL,
+	m_investor_housing_cg_fa REAL,
+	m12_investor_housing_cg_fa REAL,
+	m_other_personal_cg_fa REAL,
+	m12_other_personal_cg_fa REAL,
+	m_non_financial_business_cg_fa  REAL,
+	m12_non_financial_business_cg_fa  REAL,
+	m_business_cg_fa  REAL,
+	m12_business_cg_fa  REAL,
+	m_select_fin_business_cg_fa  REAL,
+	m12_select_fin_business_cg_fa  REAL,
+	m_total_excfin_businss_cg_fa  REAL,
+	m12_total_excfin_businss_cg_fa  REAL,
+	m_total_cg_fa  REAL,
+	m12_total_cg_fa  REAL,
+	m_total_incselectfin_business_cg_fa  REAL,
+	m12_total_incselectfin_business_cg_fa  REAL,
+	m_m3_cg_fa  REAL,
+	m12_m3_cg_fa  REAL,
+	m_broad_money_cg_fa  REAL,
+	m12_broad_money_cg_fa  REAL
+);
+
+Create Table "lending_credit_aggregates_raw" (
+	datetime_id SERIAL,
+	month_date DATE,
+	m_loans_advances_bank_excfin_lca REAL,
+	m_loans_advances_bank_lca REAL,
+	m_loans_advances_NBFI_excfin_lca REAL,
+	m_loans_advances_NBFI_lca REAL,
+	m_loans_advances_AFI_excfin_lca REAL,
+	m_loans_advances_AFI_lca REAL,
+	m_nonfin_issue_bills_lca REAL,
+	m_issue_bills_lca REAL,
+	m_narrow_c_excfin_lca REAL,
+	mseadj_narrow_c_excfin_lca REAL,
+	m_narrow_c_lca REAL,
+	mseadj_narrow_c_lca REAL,
+	m_total_c_excfin_lca REAL,
+	mseadj_total_c_excfin_lca REAL,
+	m_total_c_lca REAL,
+	mseadj_total_c_lca REAL,
+	m_owner_housing_lca REAL,
+	mseadj_owner_housing_lca REAL,
+	m_investor_c_lca  REAL,
+	mseadj_investor_c_lca  REAL,
+	m_personal_c_lca REAL,
+	mseadj_personal_c_lca REAL,
+	m_nonfin_business_c_lca REAL,
+	mseadj_nonfin_business_lca REAL,
+	m_business_lca REAL,
+	mseadj_business_lca REAL,
+	m_govsector_lending_AFI_lca REAL,
+	m_house_loan_switch_lca REAL,	
+	m_total_incselectfin_business_lca REAL,
+	mseadj_total_incselectfin_business_lca REAL,
+	m_business_incselectfin_lca REAL,
+	mseadj_business_incselectfin_lca REAL
+);
+
+Create Table "monetary_aggregates_raw"(
+	datetime_id SERIAL,
+	month_date DATE,
+	m_currency_ma  REAL,
+	m_transaction_deposits_ADI_ma  REAL,
+	m_m1_ma  REAL,
+	m_deposit_certificates_ADI_ma  REAL,
+	m_non_transaction_deposits_ADI_ma  REAL,
+	m_m3_ma  REAL,
+	m_other_borrowing_privsect_AFI_ma  REAL,
+	m_broad_money_ma  REAL,
+	mseadj_currency_ma  REAL,
+	mseadj_m1_ma  REAL,
+	mseadj_m3_ma  REAL,
+	mseadj_broad_money_ma  REAL,
+	m_base_money_ma  REAL,
+	m_offshore_borrow_AFI_ma  REAL
+	);
