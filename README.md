@@ -35,6 +35,14 @@ The following steps were used to generate the accurate visualisations from input
 -   Generated Power BI visualisations and dashboards
 -   Implemented final report
 
+## Sample Output
+Here show some examples of tabulated data in Power BI:
+
+ - Tables comparing business credit data aggregates with and without financial businesses: 
+
+![Business Data Dashboard](./Visualisations/BusinessVisualOne.png)
 
 
+ - Tables comparing Types of Money (M1, M3, Broad and Speculative M4) with aggregate graph: 
 
+![Monetary Data Dashboard](./Visualisations/MonetaryVisualOne.png)
